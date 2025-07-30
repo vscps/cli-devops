@@ -2,6 +2,8 @@ name: NestJS Test CI
 
 on:
   push:
+    branches:
+      - main
 
 jobs:
   test:
