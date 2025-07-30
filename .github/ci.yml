@@ -1,6 +1,7 @@
 name: NestJS Test CI
 
-on: push
+on:
+  push:
 
 jobs:
   test:
